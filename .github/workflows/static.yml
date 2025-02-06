@@ -41,9 +41,9 @@ jobs:
           # Upload entire repository
           path: '.'
 
-      -name: Run PowerSheel Script
-       run: pwsh -command "./helloworld.ps1"
-       shell: pwsh
+      - name: Run PowerShell Script
+        run: pwsh -command "./helloworld.ps1"
+        shell: pwsh
       
       - name: Deploy to GitHub Pages
         id: deployment
