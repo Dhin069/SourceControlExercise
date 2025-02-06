@@ -42,7 +42,7 @@ jobs:
           path: '.'
 
       - name: Run PowerShell Script
-        run: pwsh -command "./helloworld.ps1"
+        run: pwsh -command "./hellowrold.ps1"
         shell: pwsh
       
       - name: Deploy to GitHub Pages
