@@ -42,7 +42,7 @@ jobs:
           path: '.'
 
       -name: Run PowerSheel Script
-       run: pwsh -command "./factorial.ps1"
+       run: pwsh -command "./helloworld.ps1"
        shell: pwsh
       
       - name: Deploy to GitHub Pages
